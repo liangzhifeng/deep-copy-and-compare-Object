@@ -1,6 +1,8 @@
 # deep-copy-and-compare-Object
 
-记录一下比较两个对象相等以及深拷贝的方法
+记录一下比较两个对象相等以及深拷贝的方法，
+
+重点推荐其中利用JSON的方法，可以不用引入第三方库，比较方便。
 
 # 一 深拷贝
 
@@ -28,5 +30,9 @@
 
 
 # 二 比较对象相等
+
+## 利用第三方库,在此省略
+
+## 利用JSON
 
       JSON.stringify(ObjectA) == JSON.stringify(ObjectB)
